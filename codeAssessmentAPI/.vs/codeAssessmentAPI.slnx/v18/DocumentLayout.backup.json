@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D06A46A-EE71-871E-A0D8-A92B613B65C4}|src\\CodeAssessment.Api\\CodeAssessment.Api.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D06A46A-EE71-871E-A0D8-A92B613B65C4}|src\\CodeAssessment.Api\\CodeAssessment.Api.csproj|solutionrelative:src\\codeassessment.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\tests\\codeassessment.unittests\\productvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|solutionrelative:tests\\codeassessment.unittests\\productvalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\tests\\codeassessment.unittests\\productqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|solutionrelative:tests\\codeassessment.unittests\\productqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\tests\\codeassessment.unittests\\productcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|solutionrelative:tests\\codeassessment.unittests\\productcommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\tests\\codeassessment.unittests\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D338CC89-A39B-A6D0-65BC-FD563AB12A82}|tests\\CodeAssessment.UnitTests\\CodeAssessment.UnitTests.csproj|solutionrelative:tests\\codeassessment.unittests\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\queries\\getproductsbystockrangequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\queries\\getproductsbystockrangequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD56FA94-48BF-C291-77A5-C8DD8435BB63}|src\\CodeAssessment.Infrastructure\\CodeAssessment.Infrastructure.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD56FA94-48BF-C291-77A5-C8DD8435BB63}|src\\CodeAssessment.Infrastructure\\CodeAssessment.Infrastructure.csproj|solutionrelative:src\\codeassessment.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\queries\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\queries\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\commands\\addstockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\commands\\addstockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B16F7C-21E7-EF9D-D86E-449A0C1F7EC4}|src\\CodeAssessment.Domain\\CodeAssessment.Domain.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B16F7C-21E7-EF9D-D86E-449A0C1F7EC4}|src\\CodeAssessment.Domain\\CodeAssessment.Domain.csproj|solutionrelative:src\\codeassessment.domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\commands\\decrementstockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\commands\\decrementstockcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|c:\\dev\\zeiss\\codeassessment\\codeassessmentapi\\src\\codeassessment.application\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3C64-0E1B-27FF-D9B3-4CAB9BED3930}|src\\CodeAssessment.Application\\CodeAssessment.Application.csproj|solutionrelative:src\\codeassessment.application\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductValidatorTests.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductValidatorTests.cs",
+              "RelativeDocumentMoniker": "tests\\CodeAssessment.UnitTests\\ProductValidatorTests.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductValidatorTests.cs",
+              "RelativeToolTip": "tests\\CodeAssessment.UnitTests\\ProductValidatorTests.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:21:37.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductQueryHandlerTests.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\CodeAssessment.UnitTests\\ProductQueryHandlerTests.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductQueryHandlerTests.cs",
+              "RelativeToolTip": "tests\\CodeAssessment.UnitTests\\ProductQueryHandlerTests.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAswH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:21:28.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductCommandHandlerTests.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "tests\\CodeAssessment.UnitTests\\ProductCommandHandlerTests.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\ProductCommandHandlerTests.cs",
+              "RelativeToolTip": "tests\\CodeAssessment.UnitTests\\ProductCommandHandlerTests.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwIgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:21:16.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestData.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\TestData.cs",
+              "RelativeDocumentMoniker": "tests\\CodeAssessment.UnitTests\\TestData.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\tests\\CodeAssessment.UnitTests\\TestData.cs",
+              "RelativeToolTip": "tests\\CodeAssessment.UnitTests\\TestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:20:29.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchProductsQuery.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Queries\\SearchProductsQuery.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Queries\\SearchProductsQuery.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Queries\\SearchProductsQuery.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Queries\\SearchProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:16:05.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddStockCommand.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\AddStockCommand.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Commands\\AddStockCommand.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\AddStockCommand.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Commands\\AddStockCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:16:05.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:01:46.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Domain\\Product.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Domain\\Product.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Domain\\Product.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Domain\\Product.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAArwCwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:05:47.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:15:34.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA2wBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:15:42.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProductsByStockRangeQuery.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Queries\\GetProductsByStockRangeQuery.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Queries\\GetProductsByStockRangeQuery.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Queries\\GetProductsByStockRangeQuery.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Queries\\GetProductsByStockRangeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:16:05.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DecrementStockCommand.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\DecrementStockCommand.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Commands\\DecrementStockCommand.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\DecrementStockCommand.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Commands\\DecrementStockCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:16:05.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:16:15.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "src\\CodeAssessment.Application\\Commands\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\dev\\Zeiss\\codeAssessment\\codeAssessmentAPI\\src\\CodeAssessment.Application\\Commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "src\\CodeAssessment.Application\\Commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T10:05:54.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

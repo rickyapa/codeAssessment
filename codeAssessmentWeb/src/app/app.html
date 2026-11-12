@@ -1,0 +1,218 @@
+<main class="app-shell">
+
+  <section class="page-heading">
+    <div>
+      <p class="eyebrow">INVENTORY</p>
+      <h1>Products</h1>
+      <p class="subtitle">Review stock and update product details.</p>
+    </div>
+    <button class="button button-primary" type="button" (click)="openCreate()">＋ Add product</button>
+  </section>
+
+  @if (error(); as errorMessage) {
+    <div class="error-banner" role="alert">
+      <span>{{ errorMessage }}</span>
+      <button type="button" class="icon-button error-dismiss" aria-label="Dismiss error" (click)="error.set(null)">×</button>
+    </div>
+  }
+
+  <section class="catalog-card">
+    <div class="catalog-heading">
+      <div>
+        <h2>Product list</h2>
+        <p>Search products or filter by available stock.</p>
+      </div>
+      @if (loading()) {
+        <span class="loading-label"><span class="spinner"></span> Updating</span>
+      }
+    </div>
+
+    <div class="filters">
+      <form class="search-form" (ngSubmit)="applySearch()">
+        <label class="sr-only" for="product-search">Search products by name</label>
+        <input id="product-search" name="search" type="search" placeholder="Search products by name..." [(ngModel)]="searchInput" [disabled]="loading() || mutating()">
+        <button class="button button-secondary search-button" type="submit" [disabled]="loading() || mutating()">Search</button>
+      </form>
+
+      <form class="stock-filter" (ngSubmit)="applyStockFilter()">
+        <span class="filter-label">Stock range</span>
+        <label class="sr-only" for="min-stock">Minimum stock</label>
+        <input id="min-stock" name="min" type="number" min="0" placeholder="Min" [(ngModel)]="minStock" [disabled]="loading() || mutating()">
+        <span class="range-separator">to</span>
+        <label class="sr-only" for="max-stock">Maximum stock</label>
+        <input id="max-stock" name="max" type="number" min="0" placeholder="Max" [(ngModel)]="maxStock" [disabled]="loading() || mutating()">
+        <button class="button button-secondary" type="submit" [disabled]="loading() || mutating()">Filter</button>
+      </form>
+
+      @if (searchInput || minStock !== null || maxStock !== null) {
+        <button class="text-button clear-filters" type="button" (click)="clearFilters()" [disabled]="loading() || mutating()">Clear filters</button>
+      }
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col" [attr.aria-sort]="sortColumn() === 'id' ? (sortDirection() === 'asc' ? 'ascending' : 'descending') : 'none'">
+              <button class="sort-button" type="button" [attr.data-sort-state]="sortColumn() === 'id' ? sortDirection() : 'none'" aria-label="Sort by Id" (click)="sortBy('id')">
+                <span class="sort-label">Id</span>
+              </button>
+            </th>
+            <th scope="col" [attr.aria-sort]="sortColumn() === 'name' ? (sortDirection() === 'asc' ? 'ascending' : 'descending') : 'none'">
+              <button class="sort-button" type="button" [attr.data-sort-state]="sortColumn() === 'name' ? sortDirection() : 'none'" aria-label="Sort by Product" (click)="sortBy('name')">
+                <span class="sort-label">Product</span>
+              </button>
+            </th>
+            <th scope="col" [attr.aria-sort]="sortColumn() === 'stock' ? (sortDirection() === 'asc' ? 'ascending' : 'descending') : 'none'">
+              <button class="sort-button" type="button" [attr.data-sort-state]="sortColumn() === 'stock' ? sortDirection() : 'none'" aria-label="Sort by Stock level" (click)="sortBy('stock')">
+                <span class="sort-label">Stock level</span>
+              </button>
+            </th>
+            <th scope="col" class="actions-heading">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (product of pageProducts(); track product.id) {
+            <tr>
+              <td>{{ product.id }}</td>
+              <td>
+                <div class="product-cell">
+                  <strong>{{ product.name }}</strong>
+                </div>
+              </td>
+              <td>{{ product.stock }}</td>
+              <td>
+                <div class="row-actions">
+                  <button class="action-button stock-add" type="button" title="Add stock" [attr.aria-label]="'Add stock to ' + product.name" (click)="openStock(product, 'add')" [disabled]="mutating()">＋ Stock</button>
+                  <button class="action-button stock-remove" type="button" title="Remove stock" [attr.aria-label]="'Remove stock from ' + product.name" (click)="openStock(product, 'remove')" [disabled]="mutating() || product.stock === 0">− Stock</button>
+                  <button class="icon-button" type="button" [attr.aria-label]="'Edit ' + product.name" title="Edit product" (click)="openEdit(product)" [disabled]="mutating()">✎</button>
+                  <button class="icon-button delete-button" type="button" [attr.aria-label]="'Delete ' + product.name" title="Delete product" (click)="openDelete(product)" [disabled]="mutating()">
+                    <svg aria-hidden="true" viewBox="0 0 20 20" fill="none">
+                      <path d="M4.5 6h11M8 6V4.5h4V6m2.5 0-.7 10H6.2L5.5 6m2.8 3v4m3.4-4v4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                    </svg>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          } @empty {
+            @if (!loading()) {
+              <tr><td class="empty-cell" colspan="4">
+                <span class="empty-icon" aria-hidden="true">▦</span>
+                <strong>No products found</strong>
+                <span>{{ searchInput || minStock !== null || maxStock !== null ? 'Try another search or clear your filters.' : 'Add your first product to start building your catalog.' }}</span>
+                @if (!searchInput && minStock === null && maxStock === null) {
+                  <button class="button button-primary" type="button" (click)="openCreate()">＋ Add your first product</button>
+                } @else {
+                  <button class="text-button" type="button" (click)="clearFilters()">Clear filters</button>
+                }
+              </td></tr>
+            }
+          }
+        </tbody>
+      </table>
+      @if (loading() && products().length === 0) {
+        <div class="initial-loading"><span class="spinner"></span> Loading products...</div>
+      }
+    </div>
+    <footer class="table-footer">
+      <span>
+        Showing <strong>{{ firstVisibleProduct() }}–{{ lastVisibleProduct() }}</strong>
+        of <strong>{{ products().length }}</strong> product{{ products().length === 1 ? '' : 's' }}
+      </span>
+      @if (products().length > pageSize) {
+        <nav class="pagination" aria-label="Product list pages">
+          <span class="page-indicator">Page {{ page() }} of {{ totalPages() }}</span>
+          <button class="button button-secondary page-button" type="button" aria-label="Previous page" (click)="previousPage()" [disabled]="page() === 1 || loading()">Previous</button>
+          <button class="button button-secondary page-button" type="button" aria-label="Next page" (click)="nextPage()" [disabled]="page() === totalPages() || loading()">Next</button>
+        </nav>
+      }
+    </footer>
+  </section>
+
+  @if (dialog() === 'product') {
+    <div class="modal-backdrop">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="product-dialog-title" (click)="$event.stopPropagation()">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">{{ editingProduct() ? 'PRODUCT DETAILS' : 'NEW ITEM' }}</p>
+            <h2 id="product-dialog-title">{{ editingProduct() ? 'Edit product' : 'Add a product' }}</h2>
+          </div>
+          <button type="button" class="icon-button" aria-label="Close dialog" (click)="closeDialog()">×</button>
+        </div>
+        @if (modalError(); as errorMessage) {
+          <div class="modal-error" role="alert">{{ errorMessage }}</div>
+        }
+        <form #productForm="ngForm" (ngSubmit)="saveProduct()">
+          <label for="product-name">Product name</label>
+          <input id="product-name" name="productName" type="text" required maxlength="120" placeholder="e.g. Lenses" [(ngModel)]="productName" [disabled]="mutating()">
+          <label for="product-stock">Stock quantity</label>
+          <input id="product-stock" name="productStock" type="number" required min="0" step="1" [(ngModel)]="productStock" [disabled]="mutating()">
+          <p class="field-help">Use a whole number. Stock cannot be negative.</p>
+          <div class="modal-actions">
+            <button class="button button-secondary" type="button" (click)="closeDialog()" [disabled]="mutating()">Cancel</button>
+            <button class="button button-primary" type="submit" [disabled]="productForm.invalid || mutating()">
+              {{ mutating() ? 'Saving...' : editingProduct() ? 'Save changes' : 'Create product' }}
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+  }
+
+  @if (dialog() === 'stock') {
+    <div class="modal-backdrop">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="stock-dialog-title" (click)="$event.stopPropagation()">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">INVENTORY UPDATE</p>
+            <h2 id="stock-dialog-title">{{ stockOperation() === 'add' ? 'Add to stock' : 'Remove from stock' }}</h2>
+          </div>
+          <button type="button" class="icon-button" aria-label="Close dialog" (click)="closeDialog()">×</button>
+        </div>
+        @if (stockProduct(); as product) {
+          <p class="stock-summary"><strong>{{ product.name }}</strong><span>Current stock: {{ product.stock }}</span></p>
+          @if (modalError(); as errorMessage) {
+            <div class="modal-error" role="alert">{{ errorMessage }}</div>
+          }
+          <form #stockForm="ngForm" (ngSubmit)="saveStock()">
+            <label for="stock-quantity">Quantity to {{ stockOperation() === 'add' ? 'add' : 'remove' }}</label>
+            <input id="stock-quantity" name="stockQuantity" type="number" required min="1" step="1" [attr.max]="stockOperation() === 'remove' ? product.stock : null" [(ngModel)]="stockQuantity" [disabled]="mutating()">
+            <p class="field-help">{{ stockOperation() === 'remove' ? 'Enter a whole number from 1 to ' + product.stock + '.' : 'Enter a whole number greater than zero.' }}</p>
+            <div class="modal-actions">
+              <button class="button button-secondary" type="button" (click)="closeDialog()" [disabled]="mutating()">Cancel</button>
+              <button class="button button-primary" type="submit" [disabled]="stockForm.invalid || mutating()">
+                {{ mutating() ? 'Updating...' : stockOperation() === 'add' ? 'Add stock' : 'Remove stock' }}
+              </button>
+            </div>
+          </form>
+        }
+      </section>
+    </div>
+  }
+
+  @if (dialog() === 'delete') {
+    <div class="modal-backdrop" >
+      <section class="modal delete-modal" role="alertdialog" aria-modal="true" aria-labelledby="delete-dialog-title" (click)="$event.stopPropagation()">
+        <div class="modal-heading">
+          <div>
+            <p class="eyebrow">REMOVE PRODUCT</p>
+            <h2 id="delete-dialog-title">Delete product?</h2>
+          </div>
+          <button type="button" class="icon-button" aria-label="Close dialog" (click)="closeDialog()" [disabled]="mutating()">×</button>
+        </div>
+        @if (deletingProduct(); as product) {
+          <p class="delete-message"><strong>{{ product.name }}</strong> will be permanently deleted. This action cannot be undone.</p>
+        }
+        @if (modalError(); as errorMessage) {
+          <div class="modal-error" role="alert">{{ errorMessage }}</div>
+        }
+        <div class="modal-actions">
+          <button class="button button-secondary" type="button" (click)="closeDialog()" [disabled]="mutating()">Cancel</button>
+          <button class="button button-danger" type="button" (click)="confirmDelete()" [disabled]="mutating()">
+            {{ mutating() ? 'Deleting...' : 'Delete product' }}
+          </button>
+        </div>
+      </section>
+    </div>
+  }
+</main>

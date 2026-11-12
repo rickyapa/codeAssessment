@@ -1,0 +1,12 @@
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\bin\Debug\net10.0\CodeAssessment.Domain.deps.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\bin\Debug\net10.0\CodeAssessment.Domain.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\bin\Debug\net10.0\CodeAssessment.Domain.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.AssemblyInfoInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.AssemblyInfo.cs
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.csproj.CoreCompileInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.sourcelink.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\refint\CodeAssessment.Domain.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\CodeAssessment.Domain.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Domain\obj\Debug\net10.0\ref\CodeAssessment.Domain.dll

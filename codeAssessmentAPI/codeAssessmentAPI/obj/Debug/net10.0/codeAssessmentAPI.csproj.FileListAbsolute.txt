@@ -1,0 +1,16 @@
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\bin\Debug\net10.0\codeAssessmentAPI.exe
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\bin\Debug\net10.0\codeAssessmentAPI.deps.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\bin\Debug\net10.0\codeAssessmentAPI.runtimeconfig.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\bin\Debug\net10.0\codeAssessmentAPI.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\bin\Debug\net10.0\codeAssessmentAPI.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.AssemblyInfoInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.AssemblyInfo.cs
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.csproj.CoreCompileInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.sourcelink.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\refint\codeAssessmentAPI.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAssessmentAPI.genruntimeconfig.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\ref\codeAssessmentAPI.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\codeAssessmentAPI\obj\Debug\net10.0\codeAsse.FDA45098.Up2Date

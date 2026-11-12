@@ -1,0 +1,16 @@
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\bin\Debug\net10.0\CodeAssessment.Application.deps.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\bin\Debug\net10.0\CodeAssessment.Application.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\bin\Debug\net10.0\CodeAssessment.Application.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\bin\Debug\net10.0\CodeAssessment.Domain.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\bin\Debug\net10.0\CodeAssessment.Domain.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.csproj.AssemblyReference.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.AssemblyInfoInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.AssemblyInfo.cs
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.csproj.CoreCompileInputs.cache
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.sourcelink.json
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAsse.46CAF4D2.Up2Date
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\refint\CodeAssessment.Application.dll
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\CodeAssessment.Application.pdb
+C:\dev\Zeiss\codeAssessment\codeAssessmentAPI\src\CodeAssessment.Application\obj\Debug\net10.0\ref\CodeAssessment.Application.dll
